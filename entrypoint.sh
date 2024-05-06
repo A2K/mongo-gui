@@ -1,2 +1,3 @@
 #!/bin/bash
-node server.js -u $MONGO_URL
+node server.js -u $MONGO_URL $@
+
